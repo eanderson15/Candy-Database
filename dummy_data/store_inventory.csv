@@ -1,0 +1,76 @@
+store_number,candy_name,incoming,supply
+1,Twinkle,647,959
+1,Dairy Milk,791,853
+1,Aztec,236,138
+1,Cliff,905,834
+1,Sour Heads,506,256
+1,Twix,134,553
+1,Snickers,707,973
+1,Milky Way,447,936
+1,Skittles,909,556
+1,Trolli,918,525
+1,Dove,248,424
+1,Maltesers,533,499
+1,Do-Nut,454,25
+1,Cracked,106,172
+1,Choco,805,124
+2,Twinkle,41,165
+2,Dairy Milk,1992,1901
+2,Aztec,1224,940
+2,Cliff,32,438
+2,Sour Heads,1825,1507
+2,Twix,1958,764
+2,Snickers,1921,427
+2,Milky Way,986,179
+2,Skittles,1485,1754
+2,Trolli,1901,1006
+2,Dove,1226,292
+2,Maltesers,1897,743
+2,Do-Nut,363,1448
+2,Cracked,1375,1286
+2,Choco,1468,98
+3,Twinkle,920,1164
+3,Dairy Milk,230,558
+3,Aztec,259,2283
+3,Cliff,799,1966
+3,Sour Heads,2727,2803
+3,Twix,1886,2693
+3,Snickers,380,936
+3,Milky Way,2234,828
+3,Skittles,898,1694
+3,Trolli,324,529
+3,Dove,2041,568
+3,Maltesers,1833,1381
+3,Do-Nut,1556,1996
+3,Cracked,104,1859
+3,Choco,2860,672
+4,Twinkle,2677,1401
+4,Dairy Milk,3047,2981
+4,Aztec,973,3684
+4,Cliff,3801,448
+4,Sour Heads,1353,1292
+4,Twix,3197,2129
+4,Snickers,441,2381
+4,Milky Way,3734,1727
+4,Skittles,3189,2209
+4,Trolli,3963,3913
+4,Dove,163,1909
+4,Maltesers,1893,3761
+4,Do-Nut,3749,1609
+4,Cracked,2826,3616
+4,Choco,3111,3465
+5,Twinkle,354,590
+5,Dairy Milk,447,525
+5,Aztec,4717,2905
+5,Cliff,3871,2130
+5,Sour Heads,1046,551
+5,Twix,2917,1955
+5,Snickers,2758,2808
+5,Milky Way,2058,281
+5,Skittles,2853,3712
+5,Trolli,1850,2624
+5,Dove,2233,1684
+5,Maltesers,400,1123
+5,Do-Nut,1300,1694
+5,Cracked,384,4677
+5,Choco,1187,4472

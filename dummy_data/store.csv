@@ -1,0 +1,6 @@
+store_number,name,street,city,state,zip,country,income,expenditures,payroll,profit
+1,Alaskan Sweet Things,100 Muldoon Rd,Anchorage,AK,99504,United States,19219875.00,4734681.00,6370845.00,8114349.00
+2,Laura's Little Candies,2100 W 75th St,Prairie Village,KS,66208,United States,12328878.00,4857211.00,6337377.00,1134290.00
+3,The Candy Bar Toronto,849 College St,Toronto,ON,M6H 1A1,Canada,17512704.00,4721612.00,6902430.00,5888662.00
+4,Three George's Candy Shop,226 Dauphin St,Mobile,AL,36602,United States,18622658.00,5471710.00,6767015.00,6383933.00
+5,"Piece, Love and Chocolate",805 Pearl St,Boulder,CO,80302,United States,14173954.00,5964500.00,7900191.00,309263.00

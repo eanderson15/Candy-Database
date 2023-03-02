@@ -1,0 +1,113 @@
+table, th, td {border: 1px solid black;}
+
+table {
+	background-color: white;
+	width: 100%;
+}
+
+body{background-color: rgb(137, 207, 240); margin: 0px;}
+
+@font-face {
+  font-family: apple;
+  src: url(apple_chancery_regular.ttf);
+}
+
+.button {
+	background-color: rgb(128, 0, 32);
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	padding: 12px 32px;
+}
+
+.button:hover {
+	background-color: rgb(77, 0, 19);
+}
+
+.frontbutton {
+	background-color: rgb(128, 0, 32);
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	width: 14%;
+	height: 20px;
+	padding: 40px 1%;
+	transition-duration: 0.1s;
+}
+
+.frontbutton:hover {
+	background-color: rgb(77, 0, 19);
+}
+
+.top{
+	height: 100px;
+	width: 100%;
+	background-color: rgb(128, 0, 32);
+}
+
+.candyland {
+	background-color: rgb(128, 0, 32);
+	height: 100px;
+	width: 100%;
+	font-family: apple;
+	color: white;
+	font-size: 60px;
+	padding: 20px 0px;
+	text-align: center;
+}
+
+input {
+	width: 90%;
+	padding: 12px 20px;
+	margin: 8px 8px;
+	border: 1px gray;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.forms {
+	width: 30%;
+	clear: left;
+	float: left;
+	border: 1px solid black;
+	border-radius: 4px;
+	box-sizing: border-box;
+	padding: 5px;
+	margin-right: 5%;
+}
+
+.formsfront {
+	width: 28%;
+	float: left;
+	border: 1px solid black;
+	border-radius: 4px;
+	box-sizing: border-box;
+	padding: 5px;
+	margin-right: 5%;
+	margin-top: 20px;
+}
+
+.tables {
+	width: 65%;
+	overflow: hidden;	
+	box-sizing: border-box;
+	margin-right: 5px;
+}
+
+.back {
+	clear: left;
+	float: left;
+	position: relative;
+	bottom: 0px;
+}
+
+.tback {
+	margin-left: 20px;
+	float: left;
+}	

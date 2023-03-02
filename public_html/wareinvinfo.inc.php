@@ -1,0 +1,42 @@
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+<?php
+	$dbserverName = "localhost";
+	$dbusername = "eander29";
+	$dbpassword= "password";
+	$db = "eander29_1";
+
+	$conn = mysqli_connect($dbserverName,$dbusername,$dbpassword,$db);
+	if(!$conn){
+    		die("Connection failed: " . mysqli_connect_error());
+	}
+	$num = $_POST['num'];
+	$name = $_POST['name'];
+	$total = $_POST['total'];
+	$ship = $_POST['shipping'];
+	$store = $_POST['stores'];
+	$cust = $_POST['cust'];
+	$hand = $_POST['handling'];
+	
+
+	
+	$sql = "INSERT INTO warehouse_inventory (ware_number, candy_name, total, for_shipping, ship_stores, ship_cust, handling) VALUES ($num, '$name', $total, $ship, $store, $cust, $hand);";
+	if (mysqli_query($conn, $sql)) {
+		echo "Success.";
+		header("Location: ./wareinv.php?=success");
+	} else {
+		echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+	}
+
+?>
+<br>
+<br>
+<div class="tback">
+<a href ="wareinv.php" class="button">try again</a>
+</div>
+<div class="tback">
+<a href ="site.php" class="button">go home</a>
+</div>
+</html>
