@@ -16,8 +16,8 @@ warehouse (ware_number, ware_loc)
 warehouse_inventory (ware_number, candy_name, total, for_shipping, ship_stores, ship_cust, handling)
 
 Assumes the data (.csv files) is located in /tmp/dummy_data
-If in folder directory ./taskB:
-scp -r ./taskB/dummy_data /tmp
+If in folder directory:
+scp -r ./dummy_data /tmp
 
 Assumes the lines of data in the file are terminated by '\r\n'
 To load the tables:
